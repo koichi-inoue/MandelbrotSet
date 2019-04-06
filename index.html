@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <script src="myScript.js"></script>
+    <link href="style.css" rel="stylesheet" >
+    <title>Mandelbrot Set</title>
+  </head>
+
+  <body>
+
+    <h1 id="Title">Mandelbrot Set</h1>
+    <p id="SubTitle">複素平面上のマンデルブロ集合</p>
+
+    <canvas id="myCanvas" width="640" height="480"></canvas>
+
+    <ul id="parameter">
+      <li class="button">Close-up Target　CX：</li>
+      <li class="value"></li>
+      <li class="button">　CY：</li>
+      <li class="value"></li>
+    </ul>
+
+    <ul id="formula">
+      <li>Z<small>n+1</small> = Z<small>n</small>^2 + C　,　Z<small>0</small> = 0</li>
+      <li>[C]omplex Number ： a + bi　</li>
+    </ul>
+
+  </body>
+
+</html>

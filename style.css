@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  list-style-type: none;
+}
+
+body {
+     background-color: silver;
+     color: white;
+     font-family: sans-serif;
+}
+
+#Title {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  text-align:center;
+}
+
+#SubTitle {
+  margin-bottom: 4rem;
+  text-align:center;
+}
+
+#myCanvas {
+    display: block;
+    width: 640px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#parameter {
+  width: 640px;
+  margin: 0 auto 2rem auto;
+  display: flex;
+}
+
+#parameter .button{
+  margin-right: 1rem;
+}
+
+#parameter .value{
+  margin-right: 2rem;
+}
+
+#formula{
+  width: 640px;
+  margin: 0 auto 1rem auto;
+}
+
+#formula li{
+  margin-bottom: 1rem;
+}
+
+#parameter li {
+  margin-right: 1rem;
+}
